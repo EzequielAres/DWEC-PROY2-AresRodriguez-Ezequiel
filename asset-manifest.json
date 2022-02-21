@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/DWEC-PROY2-AresRodriguez-Ezequiel/static/css/main.a5020ef2.css",
+    "main.js": "/DWEC-PROY2-AresRodriguez-Ezequiel/static/js/main.0ce3f3d4.js",
+    "static/media/musicom.png": "/DWEC-PROY2-AresRodriguez-Ezequiel/static/media/musicom.5c6e60f3e2219f599721.png",
+    "static/media/instagram.png": "/DWEC-PROY2-AresRodriguez-Ezequiel/static/media/instagram.642d82c610560c3db71b.png",
+    "static/media/clicker.png": "/DWEC-PROY2-AresRodriguez-Ezequiel/static/media/clicker.105b29b615c0777245be.png",
+    "static/media/crud.png": "/DWEC-PROY2-AresRodriguez-Ezequiel/static/media/crud.a1edfd473a6bb5c7b77c.png",
+    "index.html": "/DWEC-PROY2-AresRodriguez-Ezequiel/index.html",
+    "main.a5020ef2.css.map": "/DWEC-PROY2-AresRodriguez-Ezequiel/static/css/main.a5020ef2.css.map",
+    "main.0ce3f3d4.js.map": "/DWEC-PROY2-AresRodriguez-Ezequiel/static/js/main.0ce3f3d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5020ef2.css",
+    "static/js/main.0ce3f3d4.js"
+  ]
+}
