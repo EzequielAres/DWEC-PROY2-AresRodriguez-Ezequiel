@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const Portfolio = () => {
-  return <div className='portfolio'>
+  return <div className='portfolio' id='Portfolio'>
       <h1 className='portfolio-titulo'>Proyectos</h1>
       <section className='portfolio-container'>
         <div>

@@ -4,28 +4,21 @@ import Crud from "./Crud";
 import { Inicio } from "./Inicio";
 import { Portfolio } from "./Portfolio";
 import React from 'react'
+import { Fragment } from "react/cjs/react.production.min";
 
 export const Header = () => {
   return (
-    <Router>
-    <div className="container mt-3 ml-5">
+    <Fragment>
+    <div className="contenedor">
       <div className="btn.group">
-        <img src="" alt="logo" className=""/>
-        <Link className="btn btn-sm" to="/">Inicio</Link>
-        <Link className="btn btn-sm ml-2" to="/crud">Crud</Link>
-        <Link className="btn btn-sm ml-2" to="/academics">Datos académicos</Link>
-        <Link className="btn btn-sm ml-2" to="/portfolio">Portfolio</Link>
+        <a href="" className="btn btn-sm header-elemento">Inicio</a>
+        <a href="#Experiencia" className="btn btn-sm ml-2 header-elemento">Formación</a>
+        <a href="#Portfolio" className="btn btn-sm ml-2 header-elemento">Portfolio</a>
+        <a href="#Comentarios" className="btn btn-sm ml-2 header-elemento">Comentarios</a>
       </div>
     </div>
 
     <hr />
-
-    <Switch>
-      <Route path="/portfolio"><Portfolio /></Route>
-      <Route path="/academics"><Academics /></Route>
-      <Route path="/crud"><Crud /></Route>
-      <Route path="/"><Inicio /></Route>
-    </Switch>
-  </Router>
+    </Fragment>
   )
 }

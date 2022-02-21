@@ -7,9 +7,11 @@ import { Academics } from './Components/Academics';
 import { Comments } from './Components/Comments';
 import { Portfolio } from './Components/Portfolio';
 import { Footer } from './Components/Footer';
+import { Header } from './Components/Header';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Header />
     <Inicio />
     <Academics />
     <Portfolio />

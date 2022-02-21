@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const Academics = () => {
-  return <div className='academics'>
+  return <div className='academics' id='Experiencia'>
       <h1 className='academics-titulo'>Formación académica</h1>
       <div className='elementsContainer'>
         <div className='academics-element'>
